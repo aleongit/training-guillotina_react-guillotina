@@ -1,0 +1,14 @@
+README.rst
+setup.py
+guillotina_demo/__init__.py
+guillotina_demo/api.py
+guillotina_demo/install.py
+guillotina_demo.egg-info/PKG-INFO
+guillotina_demo.egg-info/SOURCES.txt
+guillotina_demo.egg-info/dependency_links.txt
+guillotina_demo.egg-info/requires.txt
+guillotina_demo.egg-info/top_level.txt
+guillotina_demo/tests/__init__.py
+guillotina_demo/tests/conftest.py
+guillotina_demo/tests/fixtures.py
+guillotina_demo/tests/test_install.py
