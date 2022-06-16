@@ -2,7 +2,6 @@ import React from 'react'
 import { Layout } from '@guillotinaweb/react-gmi'
 //import { useLocation } from '@guillotinaweb/react-gmi'
 //import { Auth } from '@guillotinaweb/react-gmi'
-import { CustomAuth } from "./lib/auth";
 import { Guillotina } from '@guillotinaweb/react-gmi'
 import { Login } from '@guillotinaweb/react-gmi'
 import { getClient } from '@guillotinaweb/react-gmi'
@@ -11,6 +10,9 @@ import { useState, useEffect } from 'react'
 import '@guillotinaweb/react-gmi/dist/css/style.css'
 import { RequiredFieldsForm } from "@guillotinaweb/react-gmi";
 
+//lib
+import { CustomAuth } from "./lib/auth";
+
 //views
 import { DemoTypeView } from "./views/demoType"; 
 
@@ -18,6 +20,9 @@ import { DemoTypeView } from "./views/demoType";
 import { ColumnsDemoType } from "./components/columns/demoType";
 import { EditComponent } from "./components/fields/EditComponent";
 import { RenderFieldComponent } from "./components/fields/RenderFieldComponent";
+
+//behaviors
+import { IMultiImageAttachment } from "./components/behaviors/IMultiImageAttachment";
 
 
 // guillotina url
@@ -64,6 +69,10 @@ const registry = {
         Buttons: <ButtonComponent />,
       },
     },
+    behaviors: {
+      "guillotina.contrib.image.behaviors.IMultiImageAttachment":
+      IMultiImageAttachment,
+      },
     
   };
 

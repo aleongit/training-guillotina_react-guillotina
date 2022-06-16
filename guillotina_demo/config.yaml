@@ -4,6 +4,7 @@ applications:
   - guillotina.contrib.catalog.pg
   - guillotina.contrib.swagger
   - guillotina.contrib.dbusers
+  - guillotina.contrib.image
 databases:
   db:
     storage: postgresql

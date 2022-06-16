@@ -3,6 +3,16 @@
 Training Iskra guillotina_react/guillotina
 - https://github.com/guillotinaweb/guillotina_react/blob/master/docs/tutorial/tutorial.md
 
+1. https://github.com/guillotinaweb/guillotina_react/blob/master/docs/tutorial/step-1-install-guillotina.md
+2. https://github.com/guillotinaweb/guillotina_react/blob/master/docs/tutorial/step-2-create-gmi-app.md
+3. https://github.com/guillotinaweb/guillotina_react/blob/master/docs/tutorial/step-3-firsts-steps-gmi.md
+4. https://github.com/guillotinaweb/guillotina_react/blob/master/docs/tutorial/step-4-our-firsts-objects.md
+5. https://github.com/guillotinaweb/guillotina_react/blob/master/docs/tutorial/step-5-manage-users.md
+6. https://github.com/guillotinaweb/guillotina_react/blob/master/docs/tutorial/step-6-configure-main-app-login.md
+7. https://github.com/guillotinaweb/guillotina_react/blob/master/docs/tutorial/step-7-create-own-content-type.md
+8. https://github.com/guillotinaweb/guillotina_react/blob/master/docs/tutorial/step-8-content-type-view.md
+9. https://github.com/guillotinaweb/guillotina_react/blob/master/docs/tutorial/step-9-behaviors.md
+
 Doc:
 - https://github.com/guillotinaweb/guillotina_react
 - https://guillotina.io/
@@ -26,6 +36,7 @@ Doc:
 - source ./genv/bin/activate
 - pip install guillotina
 - pip install cookiecutter
+- pip install Pillow
 
 ### Run DB
 - docker run -d \

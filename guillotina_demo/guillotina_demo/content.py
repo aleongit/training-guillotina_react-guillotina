@@ -65,7 +65,8 @@ class IDemoType(IFolder):
     schema=IDemoType,
     behaviors=[
         'guillotina.behaviors.dublincore.IDublinCore',
-        'guillotina.behaviors.attachment.IMultiAttachment'
+        'guillotina.behaviors.attachment.IMultiAttachment',
+        'guillotina.contrib.image.behaviors.IMultiImageAttachment',
     ]
 )
 class DemoType(Folder):
