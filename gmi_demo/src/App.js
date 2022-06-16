@@ -11,6 +11,15 @@ import { useState, useEffect } from 'react'
 import '@guillotinaweb/react-gmi/dist/css/style.css'
 import { RequiredFieldsForm } from "@guillotinaweb/react-gmi";
 
+//views
+import { DemoTypeView } from "./views/demoType"; 
+
+//components
+import { ColumnsDemoType } from "./components/columns/demoType";
+import { EditComponent } from "./components/fields/EditComponent";
+import { RenderFieldComponent } from "./components/fields/RenderFieldComponent";
+
+
 // guillotina url
 /*
 let url = 'http://localhost:8080'
@@ -25,10 +34,37 @@ const schemas = ["/", "/db/container/"];
 //const auth = new Auth(url);
 const auth = new CustomAuth(url);
 
+const ButtonComponent = () => <div>Buttons</div>;
+const PanelsComponent = () => <div>Info Panels</div>;
+
+const FirstObjectComponent = () => {
+  return <div> First object view </div>;
+};
+
 const registry = {
-  forms: {
-    DemoType: RequiredFieldsForm,
+    paths: {
+      "/db/container/first-object/": FirstObjectComponent,
     },
+    views: {
+      DemoType: DemoTypeView,
+      },
+    forms: {
+      DemoType: RequiredFieldsForm,
+      },
+    itemsColumn: {
+      DemoType: ColumnsDemoType,
+      },
+    components: {
+      EditComponent: EditComponent,
+      RenderFieldComponent: RenderFieldComponent
+      },
+    properties: {
+      DemoType: {
+        Panels: <PanelsComponent />,
+        Buttons: <ButtonComponent />,
+      },
+    },
+    
   };
 
 function App() {

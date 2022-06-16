@@ -53,6 +53,7 @@ Doc:
 - npx create-react-app gmi_demo
 - cd gmi_demo
 - yarn add -s @guillotinaweb/react-gmi
+- yarn add -s @tinymce/tinymce-react
 - npm run start
 
 # Run
