@@ -1,10 +1,11 @@
 # Intro
 
 Training Iskra guillotina_react/guillotina
-https://github.com/guillotinaweb/guillotina_react/blob/master/docs/tutorial/tutorial.md
+- https://github.com/guillotinaweb/guillotina_react/blob/master/docs/tutorial/tutorial.md
 
-https://github.com/guillotinaweb/guillotina_react
-https://guillotina.io/
+Doc:
+- https://github.com/guillotinaweb/guillotina_react
+- https://guillotina.io/
 
 
 # Local installation
