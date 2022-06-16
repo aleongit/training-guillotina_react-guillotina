@@ -61,11 +61,11 @@ Doc:
 - cd tutorial-gmi/
 - source ./genv/bin/activate
 
-### DB
+#### DB
 - sudo service docker start
 - sudo docker start postgres_gmi
 
-### Guillotina
+#### Guillotina
 - /tutorial-gmi/guillotina serve -c guillotina_demo/config.yaml
 
 ### Front
